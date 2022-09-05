@@ -1,0 +1,27 @@
+{
+  "name": "auto-stats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Pratap-Tyagi",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cookie": "^0.5.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "googleapis": "^107.0.0",
+    "mongoose": "^6.5.4",
+    "nonce": "^1.0.4",
+    "querystring": "^0.2.1",
+    "shopify-api-node": "^3.11.1"
+  }
+}
